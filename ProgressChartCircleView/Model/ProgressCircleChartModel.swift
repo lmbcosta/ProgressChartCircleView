@@ -12,13 +12,11 @@ struct ProgressCircleChartModel {
     var description: String
     var startPercentage: CGFloat
     var endPercentage: CGFloat
-    var color: UIColor
     
-    init(description: String, startPercentage: CGFloat, endPercentage: CGFloat, color: UIColor) {
+    init(description: String, startPercentage: CGFloat, endPercentage: CGFloat) {
         self.description = description
         self.startPercentage = startPercentage
         self.endPercentage = endPercentage
-        self.color = color
     }
 }
 
