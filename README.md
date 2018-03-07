@@ -21,7 +21,7 @@ pod 'ProgressChartCircleView', :git => 'https://github.com/lmbcosta/ProgressChar
 
 ## Usage
 
-Import ProgressChartCircleView and you're ready to go!
+Import ProgressChartCircleView and you're ready to go:sunglasses::ok_hand:
  
  ```Swift
 import ProgressChartCircleView
