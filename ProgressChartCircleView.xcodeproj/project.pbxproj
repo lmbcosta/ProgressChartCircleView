@@ -8,12 +8,18 @@
 
 /* Begin PBXBuildFile section */
 		491F327F205090590099E393 /* ProgressChartCircleView.h in Headers */ = {isa = PBXBuildFile; fileRef = 491F327D205090590099E393 /* ProgressChartCircleView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		491F3287205090BC0099E393 /* ProgressChartCircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 491F3286205090BC0099E393 /* ProgressChartCircleView.swift */; };
+		491F3289205090F80099E393 /* CountingLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 491F3288205090F80099E393 /* CountingLabel.swift */; };
+		491F328C2050914B0099E393 /* ProgressCircleChartModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 491F328B2050914B0099E393 /* ProgressCircleChartModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		491F327A205090590099E393 /* ProgressChartCircleView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ProgressChartCircleView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		491F327D205090590099E393 /* ProgressChartCircleView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ProgressChartCircleView.h; sourceTree = "<group>"; };
 		491F327E205090590099E393 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		491F3286205090BC0099E393 /* ProgressChartCircleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressChartCircleView.swift; sourceTree = "<group>"; };
+		491F3288205090F80099E393 /* CountingLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountingLabel.swift; sourceTree = "<group>"; };
+		491F328B2050914B0099E393 /* ProgressCircleChartModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressCircleChartModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,10 +52,29 @@
 		491F327C205090590099E393 /* ProgressChartCircleView */ = {
 			isa = PBXGroup;
 			children = (
+				491F328A2050912B0099E393 /* Model */,
+				491F3285205090970099E393 /* Views */,
 				491F327D205090590099E393 /* ProgressChartCircleView.h */,
 				491F327E205090590099E393 /* Info.plist */,
 			);
 			path = ProgressChartCircleView;
+			sourceTree = "<group>";
+		};
+		491F3285205090970099E393 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				491F3286205090BC0099E393 /* ProgressChartCircleView.swift */,
+				491F3288205090F80099E393 /* CountingLabel.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		491F328A2050912B0099E393 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				491F328B2050914B0099E393 /* ProgressCircleChartModel.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -95,6 +120,7 @@
 				TargetAttributes = {
 					491F3279205090590099E393 = {
 						CreatedOnToolsVersion = 9.0;
+						LastSwiftMigration = 0900;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -131,6 +157,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				491F3287205090BC0099E393 /* ProgressChartCircleView.swift in Sources */,
+				491F328C2050914B0099E393 /* ProgressCircleChartModel.swift in Sources */,
+				491F3289205090F80099E393 /* CountingLabel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -253,6 +282,7 @@
 		491F3283205090590099E393 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -266,6 +296,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.lmbcosta.ProgressChartCircleView;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -274,6 +305,7 @@
 		491F3284205090590099E393 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
