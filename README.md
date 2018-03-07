@@ -11,7 +11,6 @@ All data can be animated or be static.
 
 
 ### Installation
-
 ProgressChartCircleView is available through [CocoaPods](https://cocoapods.org)<br/>
 Simply add the following line in your Podfile:
 ```ruby
@@ -20,7 +19,6 @@ pod 'ProgressChartCircleView', :git => 'https://github.com/lmbcosta/ProgressChar
 
 
 ## Usage
-
 Import ProgressChartCircleView and you're ready to rock:ok_hand::sunglasses:
  
  ```Swift
@@ -66,12 +64,10 @@ class ViewController: UIViewController {
 
 
 ## Authors
-
 Luís Costa - lmbcosta@hotmail.com<br/>
 See also [Brian Advent Youtube Channel](https://www.youtube.com/channel/UCysEngjfeIYapEER9K8aikw) where he shares how to create a counting label.
 
 ## License
-
 This project is licensed under the MIT License - see the [LICENSE](https://github.com/lmbcosta/ProgressChartCircleView/blob/master/LICENSE) file for details
 
 
