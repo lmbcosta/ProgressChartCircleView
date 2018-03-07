@@ -1,9 +1,9 @@
-# Progress Chart Circle View :cyclone:
+# Progress Chart Circle View :cyclone::cyclone::cyclone:
 
 A Customizable progress bar that can load a list of values 
 All information can be animated or static.
 
-https://gfycat.com/gifs/detail/regularelegantgreyhounddog
+[See demo](https://gfycat.com/gifs/detail/regularelegantgreyhounddog)
 
 ## Requirements
 * ARC
@@ -21,7 +21,7 @@ pod 'ProgressChartCircleView', :git => 'https://github.com/lmbcosta/ProgressChar
 
 ## Usage
 
-Import ProgressChartCircleView and you're ready to go:sunglasses::ok_hand:
+Import ProgressChartCircleView and you're ready to rock:ok_hand::sunglasses:
  
  ```Swift
 import ProgressChartCircleView
@@ -72,6 +72,6 @@ See also [Brian Advent Youtube Channel](https://www.youtube.com/channel/UCysEngj
 
 ## License
 
-This project is licensed under the MIT License - see the LICENSE file for details
+This project is licensed under the MIT License - see the [LICENSE](https://github.com/lmbcosta/ProgressChartCircleView/blob/master/LICENSE) file for details
 
 
