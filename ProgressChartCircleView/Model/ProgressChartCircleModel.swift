@@ -1,14 +1,12 @@
 //
-//  ProgressCircleChartModel.swift
+//  ProgressChartCircleModel.swift
 //  ProgressChartCircleView
 //
-//  Created by Luis  Costa on 07/03/18.
+//  Created by Luis  Costa on 08/03/18.
 //  Copyright © 2018 Luis  Costa. All rights reserved.
 //
 
-import UIKit
-
-public struct ProgressCircleChartModel {
+public struct ProgressChartCircleModel {
     public var description: String
     public var startPercentage: CGFloat
     public var endPercentage: CGFloat

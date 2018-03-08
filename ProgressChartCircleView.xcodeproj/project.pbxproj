@@ -10,7 +10,7 @@
 		491F327F205090590099E393 /* ProgressChartCircleView.h in Headers */ = {isa = PBXBuildFile; fileRef = 491F327D205090590099E393 /* ProgressChartCircleView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		491F3287205090BC0099E393 /* ProgressChartCircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 491F3286205090BC0099E393 /* ProgressChartCircleView.swift */; };
 		491F3289205090F80099E393 /* CountingLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 491F3288205090F80099E393 /* CountingLabel.swift */; };
-		491F328C2050914B0099E393 /* ProgressCircleChartModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 491F328B2050914B0099E393 /* ProgressCircleChartModel.swift */; };
+		49200A892051D1CE002716BF /* ProgressChartCircleModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49200A882051D1CE002716BF /* ProgressChartCircleModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,7 +19,7 @@
 		491F327E205090590099E393 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		491F3286205090BC0099E393 /* ProgressChartCircleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressChartCircleView.swift; sourceTree = "<group>"; };
 		491F3288205090F80099E393 /* CountingLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountingLabel.swift; sourceTree = "<group>"; };
-		491F328B2050914B0099E393 /* ProgressCircleChartModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressCircleChartModel.swift; sourceTree = "<group>"; };
+		49200A882051D1CE002716BF /* ProgressChartCircleModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressChartCircleModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,7 +72,7 @@
 		491F328A2050912B0099E393 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				491F328B2050914B0099E393 /* ProgressCircleChartModel.swift */,
+				49200A882051D1CE002716BF /* ProgressChartCircleModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -158,7 +158,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				491F3287205090BC0099E393 /* ProgressChartCircleView.swift in Sources */,
-				491F328C2050914B0099E393 /* ProgressCircleChartModel.swift in Sources */,
+				49200A892051D1CE002716BF /* ProgressChartCircleModel.swift in Sources */,
 				491F3289205090F80099E393 /* CountingLabel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
