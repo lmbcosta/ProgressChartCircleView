@@ -28,12 +28,12 @@ import ProgressChartCircleView
 class ViewController: UIViewController {
     
     var models = [
-        ProgressCircleChartModel(description: "Carbohidrates", startPercentage: 0, endPercentage: 55),
-        ProgressCircleChartModel(description: "Vitamins", startPercentage: 55, endPercentage: 59),
-        ProgressCircleChartModel(description: "Proteins", startPercentage: 59, endPercentage: 81),
-        ProgressCircleChartModel(description: "Fats", startPercentage: 81, endPercentage: 93),
-        ProgressCircleChartModel(description: "Fiber", startPercentage: 93, endPercentage: 97),
-        ProgressCircleChartModel(description: "Minerals", startPercentage: 97, endPercentage: 100)
+        ProgressCircleChartModel(description: "Carbo Hidrates", startPercentage: 0, endPercentage: 55, color: .green),
+        ProgressCircleChartModel(description: "Vitamins", startPercentage: 55, endPercentage: 59, color: .red),
+        ProgressCircleChartModel(description: "Proteins", startPercentage: 59, endPercentage: 81, color: .black),
+        ProgressCircleChartModel(description: "Fats", startPercentage: 81, endPercentage: 93, color: .red),
+        ProgressCircleChartModel(description: "Fiber", startPercentage: 93, endPercentage: 97, color: .orange),
+        ProgressCircleChartModel(description: "Minerals", startPercentage: 97, endPercentage: 100, color: .yellow)
     ]
 
     override func viewDidLoad() {
