@@ -28,7 +28,7 @@ import ProgressChartCircleView
 class ViewController: UIViewController {
     
     var models = [
-        ProgressChartCircleModel(description: "Carbo Hidrates", startPercentage: 0, endPercentage: 55),
+        ProgressChartCircleModel(description: "Carbohidrates", startPercentage: 0, endPercentage: 55),
         ProgressChartCircleModel(description: "Vitamins", startPercentage: 55, endPercentage: 59),
         ProgressChartCircleModel(description: "Proteins", startPercentage: 59, endPercentage: 81),
         ProgressChartCircleModel(description: "Fats", startPercentage: 81, endPercentage: 93),
