@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ProgressChartCircleView: UIView {
+public class ProgressChartCircleView: UIView {
     
     public enum LabelTypeAnimation {
         case linear
@@ -64,11 +64,11 @@ class ProgressChartCircleView: UIView {
         get { return _labelFont }
     }
     
-    override init(frame: CGRect) {
+    public override init(frame: CGRect) {
         super.init(frame: frame)
     }
     
-    required init?(coder aDecoder: NSCoder) {
+    required public init?(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
     }
 }

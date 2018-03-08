@@ -8,15 +8,14 @@
 
 import UIKit
 
-struct ProgressCircleChartModel {
-    var description: String
-    var startPercentage: CGFloat
-    var endPercentage: CGFloat
+public struct ProgressCircleChartModel {
+    public var description: String
+    public var startPercentage: CGFloat
+    public var endPercentage: CGFloat
     
-    init(description: String, startPercentage: CGFloat, endPercentage: CGFloat) {
+    public init(description: String, startPercentage: CGFloat, endPercentage: CGFloat) {
         self.description = description
         self.startPercentage = startPercentage
         self.endPercentage = endPercentage
     }
 }
-
