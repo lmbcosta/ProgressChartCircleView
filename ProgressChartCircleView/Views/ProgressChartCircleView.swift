@@ -3,7 +3,7 @@
 //  ProgressChartCircleView
 //
 //  Created by Luis  Costa on 07/03/18.
-//  Copyright © 2018 Luis  Costa. All rights reserved.
+//  Copyright © 2018 Luis Costa. All rights reserved.
 //
 
 import UIKit
@@ -21,7 +21,7 @@ public class ProgressChartCircleView: UIView {
         case float
     }
     
-    fileprivate lazy var _models: [ProgressCircleChartModel] = [ProgressCircleChartModel]()
+    fileprivate lazy var _models: [ProgressChartCircleModel] = []
     fileprivate lazy var _selectedStrokeColor: UIColor = .green
     fileprivate lazy var _backgroundStrokeColor: UIColor = .lightGray
     fileprivate lazy var _radius: CGFloat = self.frame.size.width / 2
@@ -163,7 +163,7 @@ extension ProgressChartCircleView {
 
 // MARK: - Public methods
 extension ProgressChartCircleView {
-    public func setModels(models: [ProgressCircleChartModel]) {
+    public func setModels(models: [ProgressChartCircleModel]) {
         self._models = models
     }
     
