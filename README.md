@@ -1,7 +1,7 @@
 # Progress Chart Circle View :cyclone::cyclone::cyclone:
 
 A Customizable progress bar that can load a list of values <br/>
-All data can be animated or be static.
+Values can be static or animated.
 
 [See demo](https://gfycat.com/gifs/detail/regularelegantgreyhounddog)
 
